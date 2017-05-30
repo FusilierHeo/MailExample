@@ -6,7 +6,7 @@ from email.mime.text import MIMEText
 smtp = smtplib.SMTP('smtp.live.com', 587)
 smtp.ehlo()  # say Hello
 smtp.starttls()  # TLS 사용시 필요
-smtp.login('sjhur1991@naver.com', 'skhur3319')
+smtp.login('sjhur1991@naver.com', 'PASS')
 
 msg = MIMEText('본문 테스트 메시지')
 msg['Subject'] = '테스트'
